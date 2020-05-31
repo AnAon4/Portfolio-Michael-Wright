@@ -59,3 +59,19 @@ header nav ul li a:hover {
     color: var(--primary-color);
     font-weight: 700;
 }
+
+.about-me {
+    background: saddlebrown;
+}
+
+.my-projects {
+    background: rebeccapurple;
+}
+
+.contact-me {
+    background: palegreen;
+}
+
+footer{
+    background: red;
+}
