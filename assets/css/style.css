@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #324533;
+    --primary-color: #217537;
     --secondary-color: #ffffff;
     --tertiary-color: #4b4d4b;
 }
@@ -20,8 +20,9 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     color: var(--secondary-color);
-    height: 100px;
+    height: 140px;
     background-image: url(../Images/96714fc8226deaf0f0cc9aebee39cda0.jpg);
+    background-position: center;
 }
 
 header a {
@@ -50,5 +51,11 @@ header nav ul li {
 }
 
 header nav ul li a {
+   font-size: 2vw;
+}
 
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: 700;
 }
